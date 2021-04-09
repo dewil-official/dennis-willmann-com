@@ -7,7 +7,7 @@ const query = `//groq
   *[_type == "product" && defined(slug.current)]
 `;
 
-function IndexPage(props) {
+function IndexPage(props: { productsData: any; preview: any }) {
   const { productsData, preview } = props;
   const router = useRouter();
 
