@@ -1,18 +1,14 @@
 {
-  "name": "sanity-template-nextjs-ecommerce",
+  "name": "dennis-willmann-com",
   "version": "1.0.0",
   "private": true,
-  "description": "Sanity.io and Next.js Ecommerce Starter template",
+  "description": "Website for denniswillmann.com - Blog & Personal site",
   "scripts": {
     "dev": "concurrently \"next\" \"cd studio && sanity start\"",
     "build": "echo 'Building Sanity to public/studio…' && cd studio && sanity build ../public/studio -y && cd .. && next build",
     "start": "vercel dev",
     "postinstall": "lerna bootstrap",
     "check-template": "sanity-template check"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sanity-io/sanity-template-nextjs-ecommerce.git"
   },
   "dependencies": {
     "@sanity/client": "^2.0.1",
@@ -33,10 +29,9 @@
     "tailwindcss": "^1.9.6"
   },
   "keywords": [],
-  "author": "Sanity.io <hello@sanity.io>",
-  "license": "MIT",
+  "author": "Dennis Willmann <contact@denniswillmann.com>",
   "bugs": {
-    "url": "https://github.com/sanity-io/sanity-template-nextjs-ecommerce/issues"
+    "url": "https://github.com/dewil-official/dennis-willmann-com/issues"
   },
-  "homepage": "https://github.com/sanity-io/sanity-template-nextjs-ecommerce#readme"
+  "homepage": "https://denniswillmann.com"
 }
