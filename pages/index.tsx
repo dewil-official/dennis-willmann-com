@@ -1,5 +1,6 @@
 import Error from "next/error";
 import { useRouter } from "next/router";
+import { useState } from "react";
 import Hero from "../components/sections/Hero";
 import { getClient, urlFor, usePreviewSubscription } from "../utils/sanity";
 
