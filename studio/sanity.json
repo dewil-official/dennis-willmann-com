@@ -1,11 +1,11 @@
 {
   "root": true,
   "api": {
-    "projectId": "placeholder",
-    "dataset": "placeholder"
+    "projectId": "9d501wcd",
+    "dataset": "production"
   },
   "project": {
-    "name": "Next.JS E-commerce example",
+    "name": "New DennisWillmann.com Site",
     "basePath": "/studio"
   },
   "plugins": [
@@ -18,9 +18,7 @@
   ],
   "env": {
     "development": {
-      "plugins": [
-        "@sanity/vision"
-      ]
+      "plugins": ["@sanity/vision"]
     }
   },
   "parts": [

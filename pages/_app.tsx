@@ -1,13 +1,14 @@
 import "../styles/index.css";
-import Layout from "../components/Layout";
 import { AppProps } from "next/dist/next-server/lib/router/router";
+import Navbar from "../components/layout/Navbar";
 
-function MyApp({ Component, pageProps }: AppProps) {
+function WebApp({ Component, pageProps }: AppProps) {
   return (
-    <Layout>
+    <>
+      <Navbar />
       <Component {...pageProps} />
-    </Layout>
+    </>
   );
 }
 
-export default MyApp;
+export default WebApp;

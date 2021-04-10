@@ -1,5 +1,11 @@
 import S from "@sanity/desk-tool/structure-builder";
-import { MdWeb, MdSettings, MdWhatshot, MdLooks } from "react-icons/md";
+import {
+  MdWeb,
+  MdSettings,
+  MdWhatshot,
+  MdLooks,
+  MdAllInclusive,
+} from "react-icons/md";
 import ads from "./ads";
 import categories from "./categories";
 import person from "./person";
@@ -23,12 +29,17 @@ const hiddenDocTypes = (listItem) =>
     "product",
     "route",
     "siteConfig",
+    "landing",
   ].includes(listItem.getId());
 
 export default () =>
   S.list()
-    .title("Pulp Inc.")
+    .title("denniswillmann.com")
     .items([
+      S.listItem()
+        .title("Landing Page")
+        .icon(MdAllInclusive)
+        .child(S.document().schemaType("landing").documentId("landing")),
       S.documentTypeListItem("product").title("Products"),
       S.listItem()
         .title("Website")
