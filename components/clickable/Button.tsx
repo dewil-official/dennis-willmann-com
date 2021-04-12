@@ -15,7 +15,6 @@ const StyledButton = styled.button`
 
 export default function Button(props: ButtonProps) {
   const [isAnimating, setIsAnimating] = useState(false);
-  let animationTimeout = false;
 
   return (
     <StyledButton

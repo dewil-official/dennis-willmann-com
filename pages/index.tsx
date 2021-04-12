@@ -1,12 +1,11 @@
 import Head from "next/head";
 import Error from "next/error";
 import { useRouter } from "next/router";
-import { useState } from "react";
 import Hero from "../components/sections/Hero";
 import { getClient, urlFor, usePreviewSubscription } from "../utils/sanity";
 
 function IndexPage(props: { preview: any; landingData: any }) {
-  const router = useRouter();
+  // const router = useRouter();
   const heroProps = {
     imageSrc: urlFor(props.landingData.heroImage).url() ?? "",
     title: props.landingData.title,
