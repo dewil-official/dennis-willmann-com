@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Error from "next/error";
 import { useRouter } from "next/router";
 import { useState } from "react";
@@ -16,7 +17,14 @@ function IndexPage(props: { preview: any; landingData: any }) {
   //   return <Error statusCode={404} />;
   // }
 
-  return <Hero {...heroProps} />;
+  return (
+    <>
+      <Head>
+        <title>Dennis Willmann 💡 Blog & Inspiration</title>
+      </Head>
+      <Hero {...heroProps} />
+    </>
+  );
 }
 const query = `//groq
   *[_type == "landing" && _id == "landing"]

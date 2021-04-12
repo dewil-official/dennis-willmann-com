@@ -27,6 +27,7 @@
   },
   "devDependencies": {
     "@sanity/cli": "^2.0.9",
+    "@types/styled-components": "^5.1.9",
     "concurrently": "^5.3.0",
     "lerna": "^3.22.1",
     "postcss-flexbugs-fixes": "4.2.1",

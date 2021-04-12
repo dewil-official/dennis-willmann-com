@@ -21,8 +21,6 @@ class CustomDocument extends Document {
     return (
       <Html>
         <Head>
-          {/* General Metadata */}
-          <title>Dennis Willmann 💡 Blog & Inspiration</title>
           {/* Google Fonts */}
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           {googleFonts.style.map((v: any) => (

@@ -2,6 +2,7 @@ import "../styles/index.css";
 import { AppProps } from "next/dist/next-server/lib/router/router";
 import Navbar from "../components/layout/Navbar";
 import { useState } from "react";
+import Head from "next/head";
 
 function WebApp({ Component, pageProps }: AppProps) {
   const [isMenuOpen, setMenuOpen] = useState(false);
