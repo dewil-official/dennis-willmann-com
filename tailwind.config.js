@@ -10,6 +10,10 @@ module.exports = {
         "accent-1": "#333",
         blue: "#0066FF",
       },
+      fontFamily: {
+        sans: ["Roboto", "Lato", "Lucida Grande", "Tahoma", "Sans-Serif"],
+        serif: ["Noto Serif", "Georgia", "serif"],
+      },
     },
   },
   variants: {},

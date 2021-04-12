@@ -5769,6 +5769,13 @@ next@^10.0.1:
     vm-browserify "1.1.2"
     watchpack "2.1.1"
 
+nextjs-google-fonts@^3.2.21:
+  version "3.2.21"
+  resolved "https://registry.yarnpkg.com/nextjs-google-fonts/-/nextjs-google-fonts-3.2.21.tgz#d466cbd698f8bc855749e1ad293b275c1b335087"
+  integrity sha512-D96pqb5LxX19dzKkSZWipzKQ3t7BtAhGlr/Iszai8u2Yd09ycUD4kv3dH0+EZvJgEpERkAc/YrWFSDN4bU2BzA==
+  dependencies:
+    request "^2.88.2"
+
 nice-try@^1.0.4:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/nice-try/-/nice-try-1.0.5.tgz#a3378a7696ce7d223e88fc9b764bd7ef1089e366"
@@ -7643,7 +7650,7 @@ repeating@^2.0.0:
   dependencies:
     is-finite "^1.0.0"
 
-request@^2.88.0:
+request@^2.88.0, request@^2.88.2:
   version "2.88.2"
   resolved "https://registry.yarnpkg.com/request/-/request-2.88.2.tgz#d73c918731cb5a87da047e207234146f664d12b3"
   integrity sha512-MsvtOrfG9ZcrOwAW+Qi+F6HbD0CWXEh9ou77uOb7FM2WPhwT7smM833PzanhJLsgXjN89Ir6V2PczXNnMpwKhw==
