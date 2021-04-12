@@ -3,6 +3,8 @@ import Error from "next/error";
 import { useRouter } from "next/router";
 import Hero from "../components/sections/Hero";
 import { getClient, urlFor, usePreviewSubscription } from "../utils/sanity";
+import BlogPreview from "../components/sections/BlogPreview";
+import AboutMePreview from "../components/sections/AboutMePreview";
 
 function IndexPage(props: { preview: any; landingData: any }) {
   // const router = useRouter();
@@ -22,6 +24,8 @@ function IndexPage(props: { preview: any; landingData: any }) {
         <title>Dennis Willmann 💡 Blog & Inspiration</title>
       </Head>
       <Hero {...heroProps} />
+      <BlogPreview />
+      <AboutMePreview />
     </>
   );
 }
