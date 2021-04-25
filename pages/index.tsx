@@ -23,7 +23,6 @@ function IndexPage(props: { preview: any; landingData: any }) {
       <Head>
         <title>Dennis Willmann 💡 Blog & Inspiration</title>
       </Head>
-      <Hero {...heroProps} />
       <BlogPreview />
       <AboutMePreview />
     </>

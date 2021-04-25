@@ -8530,6 +8530,11 @@ supports-color@^8.0.0:
   dependencies:
     has-flag "^4.0.0"
 
+tailwind-underline-utils@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/tailwind-underline-utils/-/tailwind-underline-utils-1.1.2.tgz#2a391d31af77e38813c52de2b44df6185328a29d"
+  integrity sha512-AjoBjXXY7iytuGg7hqUZFWg4hpgRfmX0lQkrOwwhaTOheJXqpvUoKU9xj4m7t7KVhPlPChYLOa3Z4PLv2zBrEg==
+
 tailwindcss@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/tailwindcss/-/tailwindcss-2.1.1.tgz#642f6038c9283a8e1454da34585b8b7c1a1e8877"
